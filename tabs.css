@@ -1,0 +1,95 @@
+body {
+    background-color: #000033;
+}
+
+h1 {
+    text-align: center;
+    font-family: vivaldi, cursive;
+    color: red;
+    font-size: 45px;
+}
+
+h2 {
+  color: red;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: Verdana, sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: red;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+h4 span {
+    color: #269900;
+}
+
+.nav-tab{
+    font-size: 90px;
+    text-align: center;
+}
+
+.navigason{
+    text-decoration: none;
+    color: #269900;
+}
+
+p {
+    color: red;
+}
+
+button {
+    background-color: red;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 4px 2px;
+    cursor: pointer;
+    z-index: 1;
+    border: none;
+    color: black;
+    padding: 20px 45px;
+    text-align: center;
+}
+
+div{
+    font-style: italic;
+    color: #a1ff00;
+}
+
+div#guessing_board{
+    background:  #00004d;
+  	border:#998 4px solid;
+  	width:540px;
+  	height:520px;
+  	padding:24px;
+  	margin:0px auto;
+}
+
+div#guessing_board > div{
+  	background: red;
+  	border:#900 2px solid;
+  	width:71px;
+  	height:71px;
+  	float:left;
+  	margin:10px;
+  	padding:20px;
+  	font-size:64px;
+  	cursor:pointer;
+  	text-align:center;
+}
+
+#numberer{
+    float: right;
+    position: relative;
+    left: -20%;
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    font-size: 30px;
+}
