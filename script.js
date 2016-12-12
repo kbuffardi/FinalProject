@@ -3,7 +3,7 @@ function BeginGame(){
 playing = !playing;
 if (playing) {
   document.getElementById("beginButton").innerHTML = "Stop";
-  downAmmount();
+  downAmmount(); 
 }
 if (!playing) {
   document.getElementById("beginButton").innerHTML = "Begin";
