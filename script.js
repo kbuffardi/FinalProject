@@ -68,14 +68,14 @@ function rememberTile(tile,val){
             memory_values = [];
                   memory_tile_ids = [];
         }
-        setTimeout(goBack, 700);
+        setTimeout(goBack, 500);
       }
     }
   }
 }
 function downAmmount()
 {
-  var downAmmountTime = 120;
+  var downAmmountTime = 60;
     function click()
     {
         var numberer = document.getElementById("numberer");
